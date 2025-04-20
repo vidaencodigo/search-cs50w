@@ -10,48 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/3d68344ae4.js" crossorigin="anonymous"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            text-decoration: none;
-        }
-
-        html {
-            font-family: "Roboto", sans-serif;
-        }
-
-        .root {
-            margin: .5rem;
-            padding: .5rem;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-
-        .header {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            background-color: #fff;
-        }
-
-        .header-menu {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-
-        .search,
-        .search>.content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
@@ -70,7 +29,7 @@
                         </a>
                     </div>
                     <div class="menu-element">
-                        <a href="#">
+                        <a href="#" class="link-menu">
                             <div class="menu-icon">
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -114,8 +73,8 @@
                             <input type="text" name="q">
                         </div>
                         <div class="buttons-search-group">
-                            <button type="submit" class="btn">Google Search</button>
-                            <button type="submit" class="btn">I'm feeling lucky</button>
+                            <button type="submit" class="btn" name="btnK">Google Search</button>
+                            <button type="submit" class="btn" name="btnI">I'm feeling lucky</button>
                         </div>
                     </form>
                 </div>
