@@ -145,3 +145,13 @@ html {
     border: 1px solid #4285f4;
     outline: none
 }
+.logo{
+    position: relative;
+}
+
+.logo-text{
+    color: #4285f4;
+    position: absolute;
+    bottom: .5rem;
+    right: 0;
+}
