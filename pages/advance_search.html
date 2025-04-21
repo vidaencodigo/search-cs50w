@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d68344ae4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+    <main class="root">
+        <header class="header">
+            <div class="header-logo">
+                <a href="../index.html">
+                    <img src="../assets/images/googlelogo_clr_74x24px.svg" alt="google logo" class="logo">
+                </a>
+            </div>
+            <div class="content">
+                <div class="header-menu">
+                    <div class="menu-element">
+                        <a href="#" class="link-menu" title="Menu">
+                            <div class="menu-icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
+    <section class="title-search">
+        <div class="content">
+            <h1 class="title">Advanced Search</h1>
+        </div>
+    </section>
+    <div class="cs50duck"></div>
+
+    <section class="advance-search">
+        <div class="content">
+            <form class="form-advance" action="https://google.com/search">
+                <table class="tbl">
+                    
+                    <tbody>
+                        <tr class="cs-title">
+                            <td colspan="4">Find pages with...</td>
+                            <td>
+                                <p class="show cs">
+
+                                    To do this in the search box.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">all of these words:</td>
+                            <td colspan="3"><input name="as_q" type="text" class="input"></td>
+
+                            <td>
+                                <p class="show">
+                                    Type the important words: <span class="cs50span">tri-colour rat terrier</span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">this exact word or phrase:</td>
+                            <td colspan="3"><input name="as_epq" type="text" class="input"></td>
+                            <td>
+                                <p class="show">
+                                    Put exact words in quotes: 
+                                    <span class="cs50span">
+                                        "rat terrier"
+                                    </span>
+                                </p>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="label">any of these words:</td>
+                            <td colspan="3"><input name="as_oq" type="text" class="input"></td>
+                            <td >
+                                <p class="show">
+
+                                    Type OR between all the words you want: 
+                                    <span class="cs50span">
+
+                                        miniature OR standard
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">none of these words:</td>
+                            <td colspan="3"><input name="as_eq" type="text" class="input"></td>
+                            <td>
+                                <p class="show">
+
+                                    Put aminus sign just before words that you don't want: <br> 
+                                    <span class="cs50span">
+
+                                        -rodent, -"Jack Russell"
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">numbers ranging from:</td>
+                            <td><input name="as_nlo" type="text" class="input"></td>
+                            <td class="label">to:</td>
+                            <td><input name="as_nhi" type="text" class="input"></td>
+                            <td >
+                                <p class="show">
+                                    Put two full stops between the numbers and add a unit of measurement: <br>
+                                    <span class="cs50span">
+
+                                        10..35 kg, £300..£500, 2010..2011
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"></td>
+                            <td class="tbl-button">
+                                <button type="submit" name="" class="btn advance">Advanced search</button>
+                            </td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
